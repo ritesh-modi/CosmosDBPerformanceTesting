@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit.performance.api" Version="1.0.0-beta-build0020" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CosmosDBQuerying\CosmosDBQuerying.csproj" />
+  </ItemGroup>
+
+</Project>

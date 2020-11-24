@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assemblies>
+  <assembly name="CosmosDBQueryingPerfTests.dll">
+    <collection>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchysimplequery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchysimplequery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="1128.6669000014663" />
+            <iteration index="1" Duration="1300.825300000608" />
+            <iteration index="2" Duration="1151.5712999999523" />
+            <iteration index="3" Duration="1181.490100003779" />
+            <iteration index="4" Duration="1001.3746000006795" />
+            <iteration index="5" Duration="1258.3112000003457" />
+            <iteration index="6" Duration="1260.0049999952316" />
+            <iteration index="7" Duration="1337.6878999993205" />
+            <iteration index="8" Duration="1310.1086999997497" />
+            <iteration index="9" Duration="1221.8958000019193" />
+            <iteration index="10" Duration="1306.6757999956608" />
+            <iteration index="11" Duration="1220.509899996221" />
+            <iteration index="12" Duration="1388.2225999981165" />
+            <iteration index="13" Duration="1127.2559999972582" />
+            <iteration index="14" Duration="1370.073899999261" />
+            <iteration index="15" Duration="1124.1877000033855" />
+            <iteration index="16" Duration="1326.987800002098" />
+            <iteration index="17" Duration="1030.16400000453" />
+            <iteration index="18" Duration="1135.111599996686" />
+            <iteration index="19" Duration="1152.5889000073075" />
+            <iteration index="20" Duration="1304.483599998057" />
+            <iteration index="21" Duration="1076.6594999954104" />
+            <iteration index="22" Duration="1218.5064999982715" />
+            <iteration index="23" Duration="1241.8161000013351" />
+            <iteration index="24" Duration="1172.030000001192" />
+            <iteration index="25" Duration="1221.6260999962687" />
+            <iteration index="26" Duration="1174.202699996531" />
+            <iteration index="27" Duration="1253.103100001812" />
+            <iteration index="28" Duration="1130.5260000005364" />
+            <iteration index="29" Duration="1321.1655999943614" />
+            <iteration index="30" Duration="1131.4763000011444" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchysimplequery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchysimplequery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="1220.1428999975324" />
+            <iteration index="1" Duration="1386.4614000022411" />
+            <iteration index="2" Duration="1159.1468000039458" />
+            <iteration index="3" Duration="1235.2408000007272" />
+            <iteration index="4" Duration="1188.5586000010371" />
+            <iteration index="5" Duration="1262.4354000017047" />
+            <iteration index="6" Duration="1200.2258000001311" />
+            <iteration index="7" Duration="1269.1161000058055" />
+            <iteration index="8" Duration="1137.5499999970198" />
+            <iteration index="9" Duration="1279.5231999978423" />
+            <iteration index="10" Duration="1185.203499995172" />
+            <iteration index="11" Duration="1175.055199995637" />
+            <iteration index="12" Duration="1319.3152999952435" />
+            <iteration index="13" Duration="1143.024099998176" />
+            <iteration index="14" Duration="1271.9343999996781" />
+            <iteration index="15" Duration="1212.9650999978185" />
+            <iteration index="16" Duration="1256.1110000014305" />
+            <iteration index="17" Duration="1158.7847000062466" />
+            <iteration index="18" Duration="1228.539999999106" />
+            <iteration index="19" Duration="1280.0236999988556" />
+            <iteration index="20" Duration="1186.9768999963999" />
+            <iteration index="21" Duration="1165.627900004387" />
+            <iteration index="22" Duration="1172.5652000010014" />
+            <iteration index="23" Duration="1489.1226999983191" />
+            <iteration index="24" Duration="1108.6310000047088" />
+            <iteration index="25" Duration="1230.9461999982595" />
+            <iteration index="26" Duration="1170.6156999990344" />
+            <iteration index="27" Duration="1286.2321000024676" />
+            <iteration index="28" Duration="1162.5012999996543" />
+            <iteration index="29" Duration="1226.8913999944925" />
+            <iteration index="30" Duration="1189.8545999974012" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyWherequery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyWherequery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="79.85159999877214" />
+            <iteration index="1" Duration="58.74000000208616" />
+            <iteration index="2" Duration="57.04100000113249" />
+            <iteration index="3" Duration="52.20320000499487" />
+            <iteration index="4" Duration="52.88670000433922" />
+            <iteration index="5" Duration="56.29730000346899" />
+            <iteration index="6" Duration="59.11389999836683" />
+            <iteration index="7" Duration="50.66310000419617" />
+            <iteration index="8" Duration="58.1182000041008" />
+            <iteration index="9" Duration="66.51490000635386" />
+            <iteration index="10" Duration="57.17520000040531" />
+            <iteration index="11" Duration="54.648299999535084" />
+            <iteration index="12" Duration="56.996299996972084" />
+            <iteration index="13" Duration="56.374700002372265" />
+            <iteration index="14" Duration="59.42159999907017" />
+            <iteration index="15" Duration="58.224399998784065" />
+            <iteration index="16" Duration="58.925900004804134" />
+            <iteration index="17" Duration="64.61600000411272" />
+            <iteration index="18" Duration="64.98129999637604" />
+            <iteration index="19" Duration="59.46460000425577" />
+            <iteration index="20" Duration="63.96570000052452" />
+            <iteration index="21" Duration="61.00620000064373" />
+            <iteration index="22" Duration="56.14649999886751" />
+            <iteration index="23" Duration="56.606199994683266" />
+            <iteration index="24" Duration="52.413599997758865" />
+            <iteration index="25" Duration="47.075099997222424" />
+            <iteration index="26" Duration="60.518899999558926" />
+            <iteration index="27" Duration="58.795299999415874" />
+            <iteration index="28" Duration="55.568999998271465" />
+            <iteration index="29" Duration="61.913000002503395" />
+            <iteration index="30" Duration="54.38570000231266" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyWherequery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyWherequery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="62.69219999760389" />
+            <iteration index="1" Duration="54.209799997508526" />
+            <iteration index="2" Duration="57.625" />
+            <iteration index="3" Duration="58.81920000165701" />
+            <iteration index="4" Duration="66.96149999648333" />
+            <iteration index="5" Duration="57.76920000463724" />
+            <iteration index="6" Duration="62.37460000067949" />
+            <iteration index="7" Duration="54.58680000156164" />
+            <iteration index="8" Duration="59.00129999965429" />
+            <iteration index="9" Duration="51.55669999867678" />
+            <iteration index="10" Duration="60.00809999555349" />
+            <iteration index="11" Duration="57.513799995183945" />
+            <iteration index="12" Duration="54.1169999986887" />
+            <iteration index="13" Duration="50.594399996101856" />
+            <iteration index="14" Duration="53.41149999946356" />
+            <iteration index="15" Duration="56.30839999765158" />
+            <iteration index="16" Duration="52.88020000606775" />
+            <iteration index="17" Duration="57.138300001621246" />
+            <iteration index="18" Duration="60.3783999979496" />
+            <iteration index="19" Duration="53.01630000025034" />
+            <iteration index="20" Duration="57.50609999895096" />
+            <iteration index="21" Duration="57.757000006735325" />
+            <iteration index="22" Duration="56.98380000144243" />
+            <iteration index="23" Duration="55.12219999730587" />
+            <iteration index="24" Duration="56.39000000059605" />
+            <iteration index="25" Duration="61.0337999984622" />
+            <iteration index="26" Duration="57.253600001335144" />
+            <iteration index="27" Duration="57.55869999527931" />
+            <iteration index="28" Duration="56.34470000118017" />
+            <iteration index="29" Duration="61.476700000464916" />
+            <iteration index="30" Duration="57.25639999657869" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyJoinquery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyJoinquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="170.05030000209808" />
+            <iteration index="1" Duration="94.02280000597239" />
+            <iteration index="2" Duration="89.27629999816418" />
+            <iteration index="3" Duration="94.69740000367165" />
+            <iteration index="4" Duration="76.28779999911785" />
+            <iteration index="5" Duration="79.88780000060797" />
+            <iteration index="6" Duration="67.38230000436306" />
+            <iteration index="7" Duration="116.58609999716282" />
+            <iteration index="8" Duration="77.13699999451637" />
+            <iteration index="9" Duration="88.8652000054717" />
+            <iteration index="10" Duration="83.88899999856949" />
+            <iteration index="11" Duration="73.79079999774694" />
+            <iteration index="12" Duration="67.6380999982357" />
+            <iteration index="13" Duration="83.38440000265837" />
+            <iteration index="14" Duration="74.6043999940157" />
+            <iteration index="15" Duration="109.146099999547" />
+            <iteration index="16" Duration="106.32429999858141" />
+            <iteration index="17" Duration="83.75300000607967" />
+            <iteration index="18" Duration="91.31830000132322" />
+            <iteration index="19" Duration="70.1701999977231" />
+            <iteration index="20" Duration="83.88269999623299" />
+            <iteration index="21" Duration="73.88149999827147" />
+            <iteration index="22" Duration="84.01810000091791" />
+            <iteration index="23" Duration="70.86280000209808" />
+            <iteration index="24" Duration="73.17800000309944" />
+            <iteration index="25" Duration="73.04670000076294" />
+            <iteration index="26" Duration="66.28660000115633" />
+            <iteration index="27" Duration="86.43180000036955" />
+            <iteration index="28" Duration="76.7195999994874" />
+            <iteration index="29" Duration="64.11630000174046" />
+            <iteration index="30" Duration="89.5595000013709" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyJoinquery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyJoinquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="67.2199999988079" />
+            <iteration index="1" Duration="76.00310000032187" />
+            <iteration index="2" Duration="85.200100004673" />
+            <iteration index="3" Duration="74.86280000209808" />
+            <iteration index="4" Duration="63.304000005126" />
+            <iteration index="5" Duration="80.1253999993205" />
+            <iteration index="6" Duration="78.12389999628067" />
+            <iteration index="7" Duration="105.07499999552965" />
+            <iteration index="8" Duration="74.22460000216961" />
+            <iteration index="9" Duration="73.0815000012517" />
+            <iteration index="10" Duration="87.53850000351667" />
+            <iteration index="11" Duration="71.69189999997616" />
+            <iteration index="12" Duration="75.2136999964714" />
+            <iteration index="13" Duration="74.17130000144243" />
+            <iteration index="14" Duration="180.06069999933243" />
+            <iteration index="15" Duration="86.89189999550581" />
+            <iteration index="16" Duration="78.03139999508858" />
+            <iteration index="17" Duration="72.51449999958277" />
+            <iteration index="18" Duration="72.15399999916553" />
+            <iteration index="19" Duration="66.81399999558926" />
+            <iteration index="20" Duration="73.99509999901056" />
+            <iteration index="21" Duration="77.04320000112057" />
+            <iteration index="22" Duration="75.1156999990344" />
+            <iteration index="23" Duration="104.8509000018239" />
+            <iteration index="24" Duration="68.97749999910593" />
+            <iteration index="25" Duration="77.32530000060797" />
+            <iteration index="26" Duration="69.31610000133514" />
+            <iteration index="27" Duration="75.0848999992013" />
+            <iteration index="28" Duration="72.91869999468327" />
+            <iteration index="29" Duration="72.25489999353886" />
+            <iteration index="30" Duration="70.13010000437498" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchySumGroupquery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchySumGroupquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="5253.363199993968" />
+            <iteration index="1" Duration="5210.921499997377" />
+            <iteration index="2" Duration="4913.78599999845" />
+            <iteration index="3" Duration="5235.068700000644" />
+            <iteration index="4" Duration="4546.137300007045" />
+            <iteration index="5" Duration="5560.251499995589" />
+            <iteration index="6" Duration="4796.351400002837" />
+            <iteration index="7" Duration="5138.767899997532" />
+            <iteration index="8" Duration="4597.7361999973655" />
+            <iteration index="9" Duration="5045.997000001371" />
+            <iteration index="10" Duration="5355.184699997306" />
+            <iteration index="11" Duration="4695.8678999990225" />
+            <iteration index="12" Duration="5044.975900001824" />
+            <iteration index="13" Duration="5194.320900000632" />
+            <iteration index="14" Duration="5212.311599999666" />
+            <iteration index="15" Duration="5549.020300000906" />
+            <iteration index="16" Duration="5311.9589999988675" />
+            <iteration index="17" Duration="5459.475599996746" />
+            <iteration index="18" Duration="5022.404399998486" />
+            <iteration index="19" Duration="5211.592199996114" />
+            <iteration index="20" Duration="5071.845700003207" />
+            <iteration index="21" Duration="5429.572999998927" />
+            <iteration index="22" Duration="5217.826299995184" />
+            <iteration index="23" Duration="5131.63750000298" />
+            <iteration index="24" Duration="5238.850500002503" />
+            <iteration index="25" Duration="5129.509599998593" />
+            <iteration index="26" Duration="4588.460499994457" />
+            <iteration index="27" Duration="5541.046400003135" />
+            <iteration index="28" Duration="4659.849399998784" />
+            <iteration index="29" Duration="5775.384899996221" />
+            <iteration index="30" Duration="4687.6658000051975" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchySumGroupquery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchySumGroupquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="5300.8746000006795" />
+            <iteration index="1" Duration="4641.570900000632" />
+            <iteration index="2" Duration="5488.0441999956965" />
+            <iteration index="3" Duration="5013.168099999428" />
+            <iteration index="4" Duration="5139.953500002623" />
+            <iteration index="5" Duration="5117.894200004637" />
+            <iteration index="6" Duration="5051.866800002754" />
+            <iteration index="7" Duration="5070.259199999273" />
+            <iteration index="8" Duration="5467.766800001264" />
+            <iteration index="9" Duration="5011.445900000632" />
+            <iteration index="10" Duration="5446.539200000465" />
+            <iteration index="11" Duration="5026.636699996889" />
+            <iteration index="12" Duration="5463.163000002503" />
+            <iteration index="13" Duration="4994.86819999665" />
+            <iteration index="14" Duration="4937.201299995184" />
+            <iteration index="15" Duration="5165.264400005341" />
+            <iteration index="16" Duration="4856.442500002682" />
+            <iteration index="17" Duration="5095.77270000428" />
+            <iteration index="18" Duration="5157.900700002909" />
+            <iteration index="19" Duration="5105.601199999452" />
+            <iteration index="20" Duration="5501.042200006545" />
+            <iteration index="21" Duration="4988.992499999702" />
+            <iteration index="22" Duration="5491.036899998784" />
+            <iteration index="23" Duration="4636.496699996293" />
+            <iteration index="24" Duration="5514.266199998558" />
+            <iteration index="25" Duration="4838.912399999797" />
+            <iteration index="26" Duration="5668.451000005007" />
+            <iteration index="27" Duration="5194.253699995577" />
+            <iteration index="28" Duration="5247.542600005865" />
+            <iteration index="29" Duration="4993.071400001645" />
+            <iteration index="30" Duration="5231.151100002229" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyFunctionquery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyFunctionquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="88.10450000315905" />
+            <iteration index="1" Duration="87.73089999705553" />
+            <iteration index="2" Duration="81.72780000418425" />
+            <iteration index="3" Duration="94.81019999831915" />
+            <iteration index="4" Duration="91.93679999560118" />
+            <iteration index="5" Duration="99.08749999850988" />
+            <iteration index="6" Duration="91.375" />
+            <iteration index="7" Duration="96.42190000414848" />
+            <iteration index="8" Duration="93.34619999676943" />
+            <iteration index="9" Duration="116.86259999871254" />
+            <iteration index="10" Duration="96.66659999638796" />
+            <iteration index="11" Duration="103.5190000012517" />
+            <iteration index="12" Duration="92.32880000025034" />
+            <iteration index="13" Duration="91.70609999448061" />
+            <iteration index="14" Duration="94.26960000395775" />
+            <iteration index="15" Duration="93.37640000134706" />
+            <iteration index="16" Duration="94.44699999690056" />
+            <iteration index="17" Duration="72.35029999911785" />
+            <iteration index="18" Duration="85.57609999924898" />
+            <iteration index="19" Duration="118.48640000075102" />
+            <iteration index="20" Duration="91.4826999977231" />
+            <iteration index="21" Duration="84.34000000357628" />
+            <iteration index="22" Duration="81.50490000098944" />
+            <iteration index="23" Duration="89.8285999968648" />
+            <iteration index="24" Duration="96.1811999976635" />
+            <iteration index="25" Duration="87.0384000018239" />
+            <iteration index="26" Duration="85.4180999994278" />
+            <iteration index="27" Duration="94.10639999806881" />
+            <iteration index="28" Duration="110.25140000134706" />
+            <iteration index="29" Duration="91.72240000218153" />
+            <iteration index="30" Duration="99.73879999667406" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestHierarchyFunctionquery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestHierarchyFunctionquery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="93.37240000069141" />
+            <iteration index="1" Duration="99.46179999411106" />
+            <iteration index="2" Duration="81.14079999923706" />
+            <iteration index="3" Duration="94.51579999923706" />
+            <iteration index="4" Duration="87.46609999984503" />
+            <iteration index="5" Duration="134.6507999971509" />
+            <iteration index="6" Duration="93.42880000174046" />
+            <iteration index="7" Duration="90.59769999980927" />
+            <iteration index="8" Duration="97.07759999483824" />
+            <iteration index="9" Duration="122.93639999628067" />
+            <iteration index="10" Duration="92.79540000110865" />
+            <iteration index="11" Duration="92.97039999812841" />
+            <iteration index="12" Duration="88.5325999930501" />
+            <iteration index="13" Duration="97.71079999953508" />
+            <iteration index="14" Duration="96.2880000025034" />
+            <iteration index="15" Duration="98.32429999858141" />
+            <iteration index="16" Duration="91.94709999859333" />
+            <iteration index="17" Duration="82.90060000121593" />
+            <iteration index="18" Duration="91.95729999989271" />
+            <iteration index="19" Duration="105.75" />
+            <iteration index="20" Duration="97.87550000101328" />
+            <iteration index="21" Duration="93.23799999803305" />
+            <iteration index="22" Duration="93.58540000021458" />
+            <iteration index="23" Duration="89.02989999949932" />
+            <iteration index="24" Duration="91.09650000184774" />
+            <iteration index="25" Duration="88.34800000488758" />
+            <iteration index="26" Duration="89.1406000033021" />
+            <iteration index="27" Duration="92.18489999324083" />
+            <iteration index="28" Duration="111.41319999843836" />
+            <iteration index="29" Duration="91.99130000174046" />
+            <iteration index="30" Duration="86.87659999728203" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceWhereQuery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceWhereQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="74.57069999724627" />
+            <iteration index="1" Duration="77.66589999943972" />
+            <iteration index="2" Duration="52.38410000503063" />
+            <iteration index="3" Duration="74.61879999935627" />
+            <iteration index="4" Duration="80.93729999661446" />
+            <iteration index="5" Duration="75.57880000025034" />
+            <iteration index="6" Duration="73.79259999841452" />
+            <iteration index="7" Duration="78.24840000271797" />
+            <iteration index="8" Duration="67.74509999901056" />
+            <iteration index="9" Duration="82.1444999948144" />
+            <iteration index="10" Duration="76.59800000488758" />
+            <iteration index="11" Duration="59.68630000203848" />
+            <iteration index="12" Duration="73.06619999557734" />
+            <iteration index="13" Duration="73.02889999747276" />
+            <iteration index="14" Duration="71.48919999599457" />
+            <iteration index="15" Duration="66.63840000331402" />
+            <iteration index="16" Duration="78.30900000035763" />
+            <iteration index="17" Duration="72.05439999699593" />
+            <iteration index="18" Duration="74.15990000218153" />
+            <iteration index="19" Duration="67.68949999660254" />
+            <iteration index="20" Duration="71.25559999793768" />
+            <iteration index="21" Duration="69.66290000081062" />
+            <iteration index="22" Duration="70.31410000473261" />
+            <iteration index="23" Duration="70.60350000113249" />
+            <iteration index="24" Duration="63.97850000113249" />
+            <iteration index="25" Duration="73.5257000029087" />
+            <iteration index="26" Duration="95.21359999477863" />
+            <iteration index="27" Duration="72.0291000008583" />
+            <iteration index="28" Duration="53.426500000059605" />
+            <iteration index="29" Duration="67.666400000453" />
+            <iteration index="30" Duration="57.381500005722046" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceWhereQuery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceWhereQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="107.14320000261068" />
+            <iteration index="1" Duration="85.68339999765158" />
+            <iteration index="2" Duration="73.71900000423193" />
+            <iteration index="3" Duration="72.25659999996424" />
+            <iteration index="4" Duration="65.09939999878407" />
+            <iteration index="5" Duration="52.920399993658066" />
+            <iteration index="6" Duration="65.52130000293255" />
+            <iteration index="7" Duration="73.09860000014305" />
+            <iteration index="8" Duration="73.2406999990344" />
+            <iteration index="9" Duration="56.34329999983311" />
+            <iteration index="10" Duration="76.22029999643564" />
+            <iteration index="11" Duration="70.47540000081062" />
+            <iteration index="12" Duration="77.50789999961853" />
+            <iteration index="13" Duration="78.16920000314713" />
+            <iteration index="14" Duration="73.57970000058413" />
+            <iteration index="15" Duration="71.19979999959469" />
+            <iteration index="16" Duration="75.37040000408888" />
+            <iteration index="17" Duration="49.84160000085831" />
+            <iteration index="18" Duration="54.534699998795986" />
+            <iteration index="19" Duration="73.81100000441074" />
+            <iteration index="20" Duration="52.88980000466108" />
+            <iteration index="21" Duration="72.61570000648499" />
+            <iteration index="22" Duration="65.86349999904633" />
+            <iteration index="23" Duration="62.619599997997284" />
+            <iteration index="24" Duration="60.175899997353554" />
+            <iteration index="25" Duration="73.04419999569654" />
+            <iteration index="26" Duration="90.85350000113249" />
+            <iteration index="27" Duration="96.10149999707937" />
+            <iteration index="28" Duration="75.10199999809265" />
+            <iteration index="29" Duration="69.59229999780655" />
+            <iteration index="30" Duration="75.98139999806881" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceFunctionQuery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceFunctionQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="113.60809999704361" />
+            <iteration index="1" Duration="115.57919999957085" />
+            <iteration index="2" Duration="116.58680000156164" />
+            <iteration index="3" Duration="105.68099999427795" />
+            <iteration index="4" Duration="146.91929999738932" />
+            <iteration index="5" Duration="114.27750000357628" />
+            <iteration index="6" Duration="108.64159999787807" />
+            <iteration index="7" Duration="146.31930000334978" />
+            <iteration index="8" Duration="106.76570000499487" />
+            <iteration index="9" Duration="91.92060000449419" />
+            <iteration index="10" Duration="109.14880000054836" />
+            <iteration index="11" Duration="112.49920000135899" />
+            <iteration index="12" Duration="106.13310000300407" />
+            <iteration index="13" Duration="119.05209999531507" />
+            <iteration index="14" Duration="118.82479999959469" />
+            <iteration index="15" Duration="121.37590000033379" />
+            <iteration index="16" Duration="98.26650000363588" />
+            <iteration index="17" Duration="110.47770000249147" />
+            <iteration index="18" Duration="112.78099999576807" />
+            <iteration index="19" Duration="109.0003999993205" />
+            <iteration index="20" Duration="121.28429999947548" />
+            <iteration index="21" Duration="133.1617999970913" />
+            <iteration index="22" Duration="113.08669999986887" />
+            <iteration index="23" Duration="100.00789999961853" />
+            <iteration index="24" Duration="100.7098999992013" />
+            <iteration index="25" Duration="108.21279999613762" />
+            <iteration index="26" Duration="117.84660000354052" />
+            <iteration index="27" Duration="117.26319999992847" />
+            <iteration index="28" Duration="113.79390000551939" />
+            <iteration index="29" Duration="126.5008999928832" />
+            <iteration index="30" Duration="109.90600000321865" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceFunctionQuery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceFunctionQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="165.82809999585152" />
+            <iteration index="1" Duration="131.1384999975562" />
+            <iteration index="2" Duration="109.89919999986887" />
+            <iteration index="3" Duration="121.55860000103712" />
+            <iteration index="4" Duration="112.97859999537468" />
+            <iteration index="5" Duration="108.15409999340773" />
+            <iteration index="6" Duration="113.44139999896288" />
+            <iteration index="7" Duration="133.7322999984026" />
+            <iteration index="8" Duration="110.2162000015378" />
+            <iteration index="9" Duration="97.32890000194311" />
+            <iteration index="10" Duration="114.35809999704361" />
+            <iteration index="11" Duration="135.02419999986887" />
+            <iteration index="12" Duration="129.7475000023842" />
+            <iteration index="13" Duration="119.6714000031352" />
+            <iteration index="14" Duration="131.4556999951601" />
+            <iteration index="15" Duration="124.21640000492334" />
+            <iteration index="16" Duration="108.12350000441074" />
+            <iteration index="17" Duration="89.07310000061989" />
+            <iteration index="18" Duration="98.67719999700785" />
+            <iteration index="19" Duration="97.28519999980927" />
+            <iteration index="20" Duration="105.42119999974966" />
+            <iteration index="21" Duration="145.0641999989748" />
+            <iteration index="22" Duration="218.08380000293255" />
+            <iteration index="23" Duration="113.59520000219345" />
+            <iteration index="24" Duration="113.49850000441074" />
+            <iteration index="25" Duration="108.60499999672174" />
+            <iteration index="26" Duration="107.00439999997616" />
+            <iteration index="27" Duration="112.44460000097752" />
+            <iteration index="28" Duration="125.67890000343323" />
+            <iteration index="29" Duration="107.68200000375509" />
+            <iteration index="30" Duration="115.62430000305176" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceSumGroupQuery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceSumGroupQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="21229.240299999714" />
+            <iteration index="1" Duration="22042.617899999022" />
+            <iteration index="2" Duration="18849.390399999917" />
+            <iteration index="3" Duration="21009.466099999845" />
+            <iteration index="4" Duration="20541.738399997354" />
+            <iteration index="5" Duration="20223.539599999785" />
+            <iteration index="6" Duration="19405.045699998736" />
+            <iteration index="7" Duration="20760.241099998355" />
+            <iteration index="8" Duration="20693.560800001025" />
+            <iteration index="9" Duration="21025.252099998295" />
+            <iteration index="10" Duration="20620.970700003207" />
+            <iteration index="11" Duration="21087.208800002933" />
+            <iteration index="12" Duration="18863.645599998534" />
+            <iteration index="13" Duration="18992.89209999889" />
+            <iteration index="14" Duration="20543.744099996984" />
+            <iteration index="15" Duration="21048.47580000013" />
+            <iteration index="16" Duration="20452.519600003958" />
+            <iteration index="17" Duration="19813.897900000215" />
+            <iteration index="18" Duration="19789.601800002158" />
+            <iteration index="19" Duration="21180.050099998713" />
+            <iteration index="20" Duration="20505.985899999738" />
+            <iteration index="21" Duration="19635.838700003922" />
+            <iteration index="22" Duration="20725.759700000286" />
+            <iteration index="23" Duration="20858.66319999844" />
+            <iteration index="24" Duration="21438.502899996936" />
+            <iteration index="25" Duration="19636.0007000044" />
+            <iteration index="26" Duration="21238.02199999988" />
+            <iteration index="27" Duration="19265.998300001025" />
+            <iteration index="28" Duration="20119.130800001323" />
+            <iteration index="29" Duration="19710.429999999702" />
+            <iteration index="30" Duration="21578.962999999523" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceSumGroupQuery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceSumGroupQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="20233.900299996138" />
+            <iteration index="1" Duration="20523.0625" />
+            <iteration index="2" Duration="20659.945199996233" />
+            <iteration index="3" Duration="19281.51479999721" />
+            <iteration index="4" Duration="20127.7629000023" />
+            <iteration index="5" Duration="20191.76889999956" />
+            <iteration index="6" Duration="19724.03830000013" />
+            <iteration index="7" Duration="19167.63450000435" />
+            <iteration index="8" Duration="20216.561100006104" />
+            <iteration index="9" Duration="20338.374500006437" />
+            <iteration index="10" Duration="19740.733500003815" />
+            <iteration index="11" Duration="20102.144899994135" />
+            <iteration index="12" Duration="20014.6026000008" />
+            <iteration index="13" Duration="19869.12460000068" />
+            <iteration index="14" Duration="19896.865400001407" />
+            <iteration index="15" Duration="19899.71509999782" />
+            <iteration index="16" Duration="20794.531199999154" />
+            <iteration index="17" Duration="20438.257500000298" />
+            <iteration index="18" Duration="20727.917599998415" />
+            <iteration index="19" Duration="20141.46630000323" />
+            <iteration index="20" Duration="17779.045399993658" />
+            <iteration index="21" Duration="19300.715700000525" />
+            <iteration index="22" Duration="18625.232400000095" />
+            <iteration index="23" Duration="21016.906900003552" />
+            <iteration index="24" Duration="19722.109200000763" />
+            <iteration index="25" Duration="18931.86930000037" />
+            <iteration index="26" Duration="20252.189199998975" />
+            <iteration index="27" Duration="20724.344200000167" />
+            <iteration index="28" Duration="19289.495300002396" />
+            <iteration index="29" Duration="17335.148599997163" />
+            <iteration index="30" Duration="21221.365600004792" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceSimpleQuery(changeOptions: False, buffer: 0, concurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceSimpleQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="827.2756000012159" />
+            <iteration index="1" Duration="961.2571000009775" />
+            <iteration index="2" Duration="904.9400999993086" />
+            <iteration index="3" Duration="857.3206999972463" />
+            <iteration index="4" Duration="783.7942999973893" />
+            <iteration index="5" Duration="973.1271999999881" />
+            <iteration index="6" Duration="928.0812999978662" />
+            <iteration index="7" Duration="824.1766999959946" />
+            <iteration index="8" Duration="889.318599998951" />
+            <iteration index="9" Duration="788.1179000064731" />
+            <iteration index="10" Duration="936.1297999992967" />
+            <iteration index="11" Duration="842.589500002563" />
+            <iteration index="12" Duration="961.2550000026822" />
+            <iteration index="13" Duration="919.3170000016689" />
+            <iteration index="14" Duration="773.2254000008106" />
+            <iteration index="15" Duration="986.0250000059605" />
+            <iteration index="16" Duration="852.0616999939084" />
+            <iteration index="17" Duration="860.0236999988556" />
+            <iteration index="18" Duration="861.9265000000596" />
+            <iteration index="19" Duration="935.8055999949574" />
+            <iteration index="20" Duration="870.85039999336" />
+            <iteration index="21" Duration="891.8179999962449" />
+            <iteration index="22" Duration="855.3928000032902" />
+            <iteration index="23" Duration="833.5965999960899" />
+            <iteration index="24" Duration="916.7203999981284" />
+            <iteration index="25" Duration="797.3299000039697" />
+            <iteration index="26" Duration="1038.3550999984145" />
+            <iteration index="27" Duration="862.7141999974847" />
+            <iteration index="28" Duration="919.6673000007868" />
+            <iteration index="29" Duration="931.1486999988556" />
+            <iteration index="30" Duration="845.5527999997139" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceSimpleQuery(changeOptions: True, buffer: 5000, concurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceSimpleQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="821.8979000002146" />
+            <iteration index="1" Duration="818.2352999970317" />
+            <iteration index="2" Duration="843.0003999993205" />
+            <iteration index="3" Duration="967.6266000047326" />
+            <iteration index="4" Duration="795.7872999981046" />
+            <iteration index="5" Duration="827.1328999996185" />
+            <iteration index="6" Duration="945.0318000018597" />
+            <iteration index="7" Duration="831.5157000049949" />
+            <iteration index="8" Duration="826.6111000031233" />
+            <iteration index="9" Duration="788.2048000022769" />
+            <iteration index="10" Duration="994.5271000042558" />
+            <iteration index="11" Duration="822.1349999979138" />
+            <iteration index="12" Duration="912.765000000596" />
+            <iteration index="13" Duration="853.2647000029683" />
+            <iteration index="14" Duration="831.7338999956846" />
+            <iteration index="15" Duration="1069.522699996829" />
+            <iteration index="16" Duration="785.061899997294" />
+            <iteration index="17" Duration="952.2741000056267" />
+            <iteration index="18" Duration="825.6630000025034" />
+            <iteration index="19" Duration="895.8111000061035" />
+            <iteration index="20" Duration="868.1829000040889" />
+            <iteration index="21" Duration="847.192600004375" />
+            <iteration index="22" Duration="902.9116000011563" />
+            <iteration index="23" Duration="755.8808000013232" />
+            <iteration index="24" Duration="1012.6665000021458" />
+            <iteration index="25" Duration="860.1750000044703" />
+            <iteration index="26" Duration="897.486200004816" />
+            <iteration index="27" Duration="919.0641999989748" />
+            <iteration index="28" Duration="837.4965000003576" />
+            <iteration index="29" Duration="936.700900003314" />
+            <iteration index="30" Duration="866.0383000001311" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceJoinQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceJoinQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="114.86280000209808" />
+            <iteration index="1" Duration="105.09099999815226" />
+            <iteration index="2" Duration="144.91149999946356" />
+            <iteration index="3" Duration="154.4683999940753" />
+            <iteration index="4" Duration="129.87820000201464" />
+            <iteration index="5" Duration="95.26209999620914" />
+            <iteration index="6" Duration="102.01179999858141" />
+            <iteration index="7" Duration="146.4843000024557" />
+            <iteration index="8" Duration="110.63289999961853" />
+            <iteration index="9" Duration="146.0481999963522" />
+            <iteration index="10" Duration="108.3074000030756" />
+            <iteration index="11" Duration="92.86450000107288" />
+            <iteration index="12" Duration="132.89200000464916" />
+            <iteration index="13" Duration="96.08760000020266" />
+            <iteration index="14" Duration="126.666400000453" />
+            <iteration index="15" Duration="120.80990000069141" />
+            <iteration index="16" Duration="105.8939000070095" />
+            <iteration index="17" Duration="132.99319999665022" />
+            <iteration index="18" Duration="98.29529999941587" />
+            <iteration index="19" Duration="131.74730000644922" />
+            <iteration index="20" Duration="108.61389999836683" />
+            <iteration index="21" Duration="98.78020000457764" />
+            <iteration index="22" Duration="131.0742999985814" />
+            <iteration index="23" Duration="100.85539999604225" />
+            <iteration index="24" Duration="168.9425000026822" />
+            <iteration index="25" Duration="104.24570000171661" />
+            <iteration index="26" Duration="107.92509999871254" />
+            <iteration index="27" Duration="137.65760000050068" />
+            <iteration index="28" Duration="112.62809999287128" />
+            <iteration index="29" Duration="140.16209999471903" />
+            <iteration index="30" Duration="95.45609999448061" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceJoinQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceJoinQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="95.65880000591278" />
+            <iteration index="1" Duration="90.64849999547005" />
+            <iteration index="2" Duration="146.64339999854565" />
+            <iteration index="3" Duration="117.57079999893904" />
+            <iteration index="4" Duration="147.4738999977708" />
+            <iteration index="5" Duration="132.93979999423027" />
+            <iteration index="6" Duration="126.14519999921322" />
+            <iteration index="7" Duration="180.21140000224113" />
+            <iteration index="8" Duration="121.43129999935627" />
+            <iteration index="9" Duration="172.4108999967575" />
+            <iteration index="10" Duration="152.00439999997616" />
+            <iteration index="11" Duration="117.28959999978542" />
+            <iteration index="12" Duration="126.11670000106096" />
+            <iteration index="13" Duration="104.41490000486374" />
+            <iteration index="14" Duration="148.0798000022769" />
+            <iteration index="15" Duration="95.5578000023961" />
+            <iteration index="16" Duration="130.7136000022292" />
+            <iteration index="17" Duration="135.22619999945164" />
+            <iteration index="18" Duration="149.5718000009656" />
+            <iteration index="19" Duration="141.02219999581575" />
+            <iteration index="20" Duration="113.34560000151396" />
+            <iteration index="21" Duration="112.88359999656677" />
+            <iteration index="22" Duration="148.60779999941587" />
+            <iteration index="23" Duration="115.48240000009537" />
+            <iteration index="24" Duration="152.72190000116825" />
+            <iteration index="25" Duration="109.86030000448227" />
+            <iteration index="26" Duration="134.3121000006795" />
+            <iteration index="27" Duration="128.21090000122786" />
+            <iteration index="28" Duration="109.94740000367165" />
+            <iteration index="29" Duration="134.26740000396967" />
+            <iteration index="30" Duration="110.05370000004768" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelSimpleQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0, changeDegree: False, maxDegree: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelSimpleQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="776.8346999958158" />
+            <iteration index="1" Duration="855.472199998796" />
+            <iteration index="2" Duration="694.8752000033855" />
+            <iteration index="3" Duration="746.2865000069141" />
+            <iteration index="4" Duration="860.7879000008106" />
+            <iteration index="5" Duration="732.5713999941945" />
+            <iteration index="6" Duration="706.8048999980092" />
+            <iteration index="7" Duration="692.3037000000477" />
+            <iteration index="8" Duration="809.1526999995112" />
+            <iteration index="9" Duration="762.0875000059605" />
+            <iteration index="10" Duration="827.6730000004172" />
+            <iteration index="11" Duration="812.5917000025511" />
+            <iteration index="12" Duration="701.6376999989152" />
+            <iteration index="13" Duration="831.0939000025392" />
+            <iteration index="14" Duration="754.0427000001073" />
+            <iteration index="15" Duration="893.3219999969006" />
+            <iteration index="16" Duration="764.2683999985456" />
+            <iteration index="17" Duration="796.6924000009894" />
+            <iteration index="18" Duration="853.2630999982357" />
+            <iteration index="19" Duration="686.8109999969602" />
+            <iteration index="20" Duration="814.8458999991417" />
+            <iteration index="21" Duration="856.0308999940753" />
+            <iteration index="22" Duration="722.5015000030398" />
+            <iteration index="23" Duration="867.6599000021815" />
+            <iteration index="24" Duration="768.7855000048876" />
+            <iteration index="25" Duration="845.8619000017643" />
+            <iteration index="26" Duration="803.7318000048399" />
+            <iteration index="27" Duration="684.6086999997497" />
+            <iteration index="28" Duration="876.3086999952793" />
+            <iteration index="29" Duration="714.2344999983907" />
+            <iteration index="30" Duration="858.0491999983788" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelSimpleQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200, changeDegree: True, maxDegree: 4)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelSimpleQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="640.5340000018477" />
+            <iteration index="1" Duration="726.797300003469" />
+            <iteration index="2" Duration="674.9444000050426" />
+            <iteration index="3" Duration="819.9236000031233" />
+            <iteration index="4" Duration="1495.1669999957085" />
+            <iteration index="5" Duration="673.0036000013351" />
+            <iteration index="6" Duration="729.0903999954462" />
+            <iteration index="7" Duration="762.1930000036955" />
+            <iteration index="8" Duration="1181.4079999998212" />
+            <iteration index="9" Duration="775.154399998486" />
+            <iteration index="10" Duration="1615.9583999961615" />
+            <iteration index="11" Duration="754.3368000015616" />
+            <iteration index="12" Duration="765.0540999993682" />
+            <iteration index="13" Duration="859.6687000021338" />
+            <iteration index="14" Duration="717.3051000013947" />
+            <iteration index="15" Duration="831.6799000054598" />
+            <iteration index="16" Duration="823.7243999987841" />
+            <iteration index="17" Duration="768.8998000025749" />
+            <iteration index="18" Duration="855.5367999970913" />
+            <iteration index="19" Duration="762.4082999974489" />
+            <iteration index="20" Duration="866.13030000031" />
+            <iteration index="21" Duration="766.033900000155" />
+            <iteration index="22" Duration="815.3462999984622" />
+            <iteration index="23" Duration="884.9936999976635" />
+            <iteration index="24" Duration="739.6538000032306" />
+            <iteration index="25" Duration="829.8025000020862" />
+            <iteration index="26" Duration="830.2004999965429" />
+            <iteration index="27" Duration="723.5583999976516" />
+            <iteration index="28" Duration="812.5787000060081" />
+            <iteration index="29" Duration="676.3491000011563" />
+            <iteration index="30" Duration="880.4008999988437" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelWhereQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0, changeDegree: False, maxDegree: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelWhereQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="54.56350000202656" />
+            <iteration index="1" Duration="73.61969999969006" />
+            <iteration index="2" Duration="59.96100000292063" />
+            <iteration index="3" Duration="58.882100000977516" />
+            <iteration index="4" Duration="53.62060000002384" />
+            <iteration index="5" Duration="123.26349999755621" />
+            <iteration index="6" Duration="69.88459999859333" />
+            <iteration index="7" Duration="79.49970000237226" />
+            <iteration index="8" Duration="123.41410000622272" />
+            <iteration index="9" Duration="120.49639999866486" />
+            <iteration index="10" Duration="59.328599996864796" />
+            <iteration index="11" Duration="58.56480000168085" />
+            <iteration index="12" Duration="57.31969999521971" />
+            <iteration index="13" Duration="58.349899999797344" />
+            <iteration index="14" Duration="63.29969999939203" />
+            <iteration index="15" Duration="65.36649999767542" />
+            <iteration index="16" Duration="54.916999995708466" />
+            <iteration index="17" Duration="69.39850000292063" />
+            <iteration index="18" Duration="54.703499995172024" />
+            <iteration index="19" Duration="56.66709999740124" />
+            <iteration index="20" Duration="59.72990000247955" />
+            <iteration index="21" Duration="67.42739999294281" />
+            <iteration index="22" Duration="67.22130000591278" />
+            <iteration index="23" Duration="59.49949999898672" />
+            <iteration index="24" Duration="69.1984999999404" />
+            <iteration index="25" Duration="71.84820000082254" />
+            <iteration index="26" Duration="58.5958000048995" />
+            <iteration index="27" Duration="80.20220000296831" />
+            <iteration index="28" Duration="61.12280000001192" />
+            <iteration index="29" Duration="58.541400000452995" />
+            <iteration index="30" Duration="56.14819999784231" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelWhereQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200, changeDegree: True, maxDegree: 4)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelWhereQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="2292.8068999946117" />
+            <iteration index="1" Duration="69.41409999877214" />
+            <iteration index="2" Duration="67.17080000042915" />
+            <iteration index="3" Duration="67.11240000277758" />
+            <iteration index="4" Duration="61.9054000005126" />
+            <iteration index="5" Duration="73.66250000149012" />
+            <iteration index="6" Duration="73.64880000054836" />
+            <iteration index="7" Duration="64.81360000371933" />
+            <iteration index="8" Duration="55.90749999880791" />
+            <iteration index="9" Duration="739.86060000211" />
+            <iteration index="10" Duration="68.94730000197887" />
+            <iteration index="11" Duration="60.83969999849796" />
+            <iteration index="12" Duration="61.394999995827675" />
+            <iteration index="13" Duration="72.52180000394583" />
+            <iteration index="14" Duration="101.27699999511242" />
+            <iteration index="15" Duration="75.09999999403954" />
+            <iteration index="16" Duration="65.17849999666214" />
+            <iteration index="17" Duration="60.46439999341965" />
+            <iteration index="18" Duration="79.11760000139475" />
+            <iteration index="19" Duration="60.73709999769926" />
+            <iteration index="20" Duration="59.10970000177622" />
+            <iteration index="21" Duration="59.114500001072884" />
+            <iteration index="22" Duration="61.30020000040531" />
+            <iteration index="23" Duration="57.395000003278255" />
+            <iteration index="24" Duration="52.93589999526739" />
+            <iteration index="25" Duration="72.1440000012517" />
+            <iteration index="26" Duration="59.20099999755621" />
+            <iteration index="27" Duration="63.372400000691414" />
+            <iteration index="28" Duration="60.18510000407696" />
+            <iteration index="29" Duration="83.86710000038147" />
+            <iteration index="30" Duration="61.757100000977516" />
+            <iteration index="31" Duration="76.12359999865294" />
+            <iteration index="32" Duration="60.44820000231266" />
+            <iteration index="33" Duration="57.19750000536442" />
+            <iteration index="34" Duration="62.51739999651909" />
+            <iteration index="35" Duration="58.754200004041195" />
+            <iteration index="36" Duration="65.5738999992609" />
+            <iteration index="37" Duration="65.9628000035882" />
+            <iteration index="38" Duration="67.2149999961257" />
+            <iteration index="39" Duration="59.96999999880791" />
+            <iteration index="40" Duration="60.17830000072718" />
+            <iteration index="41" Duration="55.93010000139475" />
+            <iteration index="42" Duration="58.51759999990463" />
+            <iteration index="43" Duration="81.77059999853373" />
+            <iteration index="44" Duration="66.50770000368357" />
+            <iteration index="45" Duration="59.38010000437498" />
+            <iteration index="46" Duration="61.31909999996424" />
+            <iteration index="47" Duration="58.933899998664856" />
+            <iteration index="48" Duration="67.87440000474453" />
+            <iteration index="49" Duration="60.45419999957085" />
+            <iteration index="50" Duration="80.51700000464916" />
+            <iteration index="51" Duration="633.598600000143" />
+            <iteration index="52" Duration="59.01110000163317" />
+            <iteration index="53" Duration="61.450199998915195" />
+            <iteration index="54" Duration="63.90420000255108" />
+            <iteration index="55" Duration="67.08030000329018" />
+            <iteration index="56" Duration="60.44579999893904" />
+            <iteration index="57" Duration="62.51969999819994" />
+            <iteration index="58" Duration="90.11760000139475" />
+            <iteration index="59" Duration="90.60570000112057" />
+            <iteration index="60" Duration="72.89729999750853" />
+            <iteration index="61" Duration="62.64189999550581" />
+            <iteration index="62" Duration="58.89689999818802" />
+            <iteration index="63" Duration="58.655100002884865" />
+            <iteration index="64" Duration="62.95830000191927" />
+            <iteration index="65" Duration="83.61200000345707" />
+            <iteration index="66" Duration="75.68420000374317" />
+            <iteration index="67" Duration="67.2436999976635" />
+            <iteration index="68" Duration="61.81850000470877" />
+            <iteration index="69" Duration="79.61850000172853" />
+            <iteration index="70" Duration="61.4167999997735" />
+            <iteration index="71" Duration="69.43590000271797" />
+            <iteration index="72" Duration="57.868000000715256" />
+            <iteration index="73" Duration="61.28989999741316" />
+            <iteration index="74" Duration="57.22200000286102" />
+            <iteration index="75" Duration="83.94329999387264" />
+            <iteration index="76" Duration="70.07959999889135" />
+            <iteration index="77" Duration="70.48310000449419" />
+            <iteration index="78" Duration="58.205800004303455" />
+            <iteration index="79" Duration="52.40129999816418" />
+            <iteration index="80" Duration="59.509900003671646" />
+            <iteration index="81" Duration="58.96130000054836" />
+            <iteration index="82" Duration="61.489500001072884" />
+            <iteration index="83" Duration="61.44519999623299" />
+            <iteration index="84" Duration="60.563299998641014" />
+            <iteration index="85" Duration="79.29029999673367" />
+            <iteration index="86" Duration="83.6253999993205" />
+            <iteration index="87" Duration="72.15760000050068" />
+            <iteration index="88" Duration="59.53869999945164" />
+            <iteration index="89" Duration="62.81639999896288" />
+            <iteration index="90" Duration="63.936099998652935" />
+            <iteration index="91" Duration="70.82959999889135" />
+            <iteration index="92" Duration="64.14369999617338" />
+            <iteration index="93" Duration="61.98600000143051" />
+            <iteration index="94" Duration="81.10000000149012" />
+            <iteration index="95" Duration="98.90260000526905" />
+            <iteration index="96" Duration="63.15219999849796" />
+            <iteration index="97" Duration="63.7487999945879" />
+            <iteration index="98" Duration="60.70400000363588" />
+            <iteration index="99" Duration="84.90269999951124" />
+            <iteration index="100" Duration="53.548099994659424" />
+            <iteration index="101" Duration="61.98489999771118" />
+            <iteration index="102" Duration="60.4404000043869" />
+            <iteration index="103" Duration="72.39869999885559" />
+            <iteration index="104" Duration="62.23579999804497" />
+            <iteration index="105" Duration="60.858400002121925" />
+            <iteration index="106" Duration="57.437299996614456" />
+            <iteration index="107" Duration="55.97729999572039" />
+            <iteration index="108" Duration="59.886600002646446" />
+            <iteration index="109" Duration="60.651799999177456" />
+            <iteration index="110" Duration="60.880999997258186" />
+            <iteration index="111" Duration="69.88849999755621" />
+            <iteration index="112" Duration="80.46670000255108" />
+            <iteration index="113" Duration="184.51559999585152" />
+            <iteration index="114" Duration="66.04710000008345" />
+            <iteration index="115" Duration="123.61199999600649" />
+            <iteration index="116" Duration="60.88400000333786" />
+            <iteration index="117" Duration="60.18450000137091" />
+            <iteration index="118" Duration="58.642799995839596" />
+            <iteration index="119" Duration="62.174199998378754" />
+            <iteration index="120" Duration="72.47870000451803" />
+            <iteration index="121" Duration="122.53649999946356" />
+            <iteration index="122" Duration="97.0177000015974" />
+            <iteration index="123" Duration="59.69049999862909" />
+            <iteration index="124" Duration="58.99060000479221" />
+            <iteration index="125" Duration="61.242400005459785" />
+            <iteration index="126" Duration="72.53570000082254" />
+            <iteration index="127" Duration="287.9472999945283" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelFunctionQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0, changeDegree: False, maxDegree: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelFunctionQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="112.44650000333786" />
+            <iteration index="1" Duration="87.76089999824762" />
+            <iteration index="2" Duration="94.9505999982357" />
+            <iteration index="3" Duration="97.04109999537468" />
+            <iteration index="4" Duration="100.18649999797344" />
+            <iteration index="5" Duration="97.96289999783039" />
+            <iteration index="6" Duration="100.53819999843836" />
+            <iteration index="7" Duration="98.89339999854565" />
+            <iteration index="8" Duration="105.39050000160933" />
+            <iteration index="9" Duration="95.91569999605417" />
+            <iteration index="10" Duration="111.66880000382662" />
+            <iteration index="11" Duration="102.85180000215769" />
+            <iteration index="12" Duration="100.66489999741316" />
+            <iteration index="13" Duration="89.5886999964714" />
+            <iteration index="14" Duration="111.62659999728203" />
+            <iteration index="15" Duration="95.26559999585152" />
+            <iteration index="16" Duration="96.5815000012517" />
+            <iteration index="17" Duration="91.30579999834299" />
+            <iteration index="18" Duration="98.62900000065565" />
+            <iteration index="19" Duration="97.62719999998808" />
+            <iteration index="20" Duration="93.3994999974966" />
+            <iteration index="21" Duration="93.64299999922514" />
+            <iteration index="22" Duration="98.44900000095367" />
+            <iteration index="23" Duration="84.5223999992013" />
+            <iteration index="24" Duration="96.64519999921322" />
+            <iteration index="25" Duration="93.58630000054836" />
+            <iteration index="26" Duration="95.64600000530481" />
+            <iteration index="27" Duration="89.24240000545979" />
+            <iteration index="28" Duration="100.66119999438524" />
+            <iteration index="29" Duration="106.55839999765158" />
+            <iteration index="30" Duration="102.6152999997139" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelFunctionQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200, changeDegree: True, maxDegree: 4)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelFunctionQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="98.92139999568462" />
+            <iteration index="1" Duration="94.01250000298023" />
+            <iteration index="2" Duration="108.41100000590086" />
+            <iteration index="3" Duration="92.15929999947548" />
+            <iteration index="4" Duration="89.63889999687672" />
+            <iteration index="5" Duration="92.02590000629425" />
+            <iteration index="6" Duration="85.86500000208616" />
+            <iteration index="7" Duration="113.19179999828339" />
+            <iteration index="8" Duration="90.98110000044107" />
+            <iteration index="9" Duration="96.71119999885559" />
+            <iteration index="10" Duration="96.12550000101328" />
+            <iteration index="11" Duration="96.17249999940395" />
+            <iteration index="12" Duration="96.90740000456572" />
+            <iteration index="13" Duration="96.09979999810457" />
+            <iteration index="14" Duration="113.76300000399351" />
+            <iteration index="15" Duration="101.59360000491142" />
+            <iteration index="16" Duration="93.45589999854565" />
+            <iteration index="17" Duration="131.07779999822378" />
+            <iteration index="18" Duration="107.18039999902248" />
+            <iteration index="19" Duration="85.95099999755621" />
+            <iteration index="20" Duration="92.58819999545813" />
+            <iteration index="21" Duration="91.83900000154972" />
+            <iteration index="22" Duration="117.3669999986887" />
+            <iteration index="23" Duration="103.25379999727011" />
+            <iteration index="24" Duration="117.30879999697208" />
+            <iteration index="25" Duration="106.89519999921322" />
+            <iteration index="26" Duration="104.40420000255108" />
+            <iteration index="27" Duration="107.57270000129938" />
+            <iteration index="28" Duration="114.78720000386238" />
+            <iteration index="29" Duration="161.0983999967575" />
+            <iteration index="30" Duration="108.99750000238419" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelSumGroupQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0, changeDegree: False, maxDegree: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelSumGroupQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="17719.69510000199" />
+            <iteration index="1" Duration="17014.805900000036" />
+            <iteration index="2" Duration="18441.210100002587" />
+            <iteration index="3" Duration="17981.3954000026" />
+            <iteration index="4" Duration="18917.130899995565" />
+            <iteration index="5" Duration="17176.035500004888" />
+            <iteration index="6" Duration="17688.52880000323" />
+            <iteration index="7" Duration="18614.271899998188" />
+            <iteration index="8" Duration="18123.34769999981" />
+            <iteration index="9" Duration="18689.60949999839" />
+            <iteration index="10" Duration="18489.656900003552" />
+            <iteration index="11" Duration="18140.443099997938" />
+            <iteration index="12" Duration="18601.769799999893" />
+            <iteration index="13" Duration="18567.811599999666" />
+            <iteration index="14" Duration="17805.405100002885" />
+            <iteration index="15" Duration="18786.522500000894" />
+            <iteration index="16" Duration="17555.743300005794" />
+            <iteration index="17" Duration="18971.262800000608" />
+            <iteration index="18" Duration="19146.38030000031" />
+            <iteration index="19" Duration="19182.31440000236" />
+            <iteration index="20" Duration="19750.63339999318" />
+            <iteration index="21" Duration="18593.36860000342" />
+            <iteration index="22" Duration="18652.32959999889" />
+            <iteration index="23" Duration="18950.79020000249" />
+            <iteration index="24" Duration="19774.257700003684" />
+            <iteration index="25" Duration="19869.391099996865" />
+            <iteration index="26" Duration="19980.256200000644" />
+            <iteration index="27" Duration="19767.700600005686" />
+            <iteration index="28" Duration="19693.805500000715" />
+            <iteration index="29" Duration="19824.791799999774" />
+            <iteration index="30" Duration="19956.23489999771" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelSumGroupQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200, changeDegree: True, maxDegree: 4)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelSumGroupQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="20083.600099995732" />
+            <iteration index="1" Duration="19714.412799999118" />
+            <iteration index="2" Duration="17906.40499999374" />
+            <iteration index="3" Duration="19539.82569999993" />
+            <iteration index="4" Duration="19898.31019999832" />
+            <iteration index="5" Duration="18898.232000000775" />
+            <iteration index="6" Duration="19598.823200002313" />
+            <iteration index="7" Duration="19499.035699993372" />
+            <iteration index="8" Duration="21370.256999999285" />
+            <iteration index="9" Duration="21297.968499995768" />
+            <iteration index="10" Duration="21857.482500001788" />
+            <iteration index="11" Duration="25799.43560000509" />
+            <iteration index="12" Duration="26390.293099999428" />
+            <iteration index="13" Duration="25752.580600000918" />
+            <iteration index="14" Duration="18126.28450000286" />
+            <iteration index="15" Duration="19629.50419999659" />
+            <iteration index="16" Duration="20763.3491999954" />
+            <iteration index="17" Duration="19198.03599999845" />
+            <iteration index="18" Duration="20832.575900003314" />
+            <iteration index="19" Duration="20541.66369999945" />
+            <iteration index="20" Duration="23747.27759999782" />
+            <iteration index="21" Duration="22973.71700000018" />
+            <iteration index="22" Duration="22810.0985000059" />
+            <iteration index="23" Duration="19832.98790000379" />
+            <iteration index="24" Duration="20303.807299993932" />
+            <iteration index="25" Duration="19850.013900004327" />
+            <iteration index="26" Duration="21045.27960000187" />
+            <iteration index="27" Duration="19168.756899997592" />
+            <iteration index="28" Duration="19412.551300004125" />
+            <iteration index="29" Duration="19083.926600001752" />
+            <iteration index="30" Duration="20165.22770000249" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelJoinQuery(changeOptions: False, bufferSize: 0, maxConcurrency: 0, changeDegree: False, maxDegree: 0)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelJoinQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="99.82109999656677" />
+            <iteration index="1" Duration="96.88700000196695" />
+            <iteration index="2" Duration="227.2930999994278" />
+            <iteration index="3" Duration="94.90399999916553" />
+            <iteration index="4" Duration="158.74680000543594" />
+            <iteration index="5" Duration="95.31030000001192" />
+            <iteration index="6" Duration="96.00500000268221" />
+            <iteration index="7" Duration="127.10580000281334" />
+            <iteration index="8" Duration="90.65949999541044" />
+            <iteration index="9" Duration="137.67469999939203" />
+            <iteration index="10" Duration="99.32870000600815" />
+            <iteration index="11" Duration="96.72169999778271" />
+            <iteration index="12" Duration="126.68740000575781" />
+            <iteration index="13" Duration="91.78180000185966" />
+            <iteration index="14" Duration="138.7686000019312" />
+            <iteration index="15" Duration="98.80330000072718" />
+            <iteration index="16" Duration="95.6600999981165" />
+            <iteration index="17" Duration="124.2656000033021" />
+            <iteration index="18" Duration="95.92630000412464" />
+            <iteration index="19" Duration="162.71670000255108" />
+            <iteration index="20" Duration="114.2483000010252" />
+            <iteration index="21" Duration="110.03779999911785" />
+            <iteration index="22" Duration="139.79969999939203" />
+            <iteration index="23" Duration="100.16089999675751" />
+            <iteration index="24" Duration="146.91560000181198" />
+            <iteration index="25" Duration="142.743299998343" />
+            <iteration index="26" Duration="112.00269999355078" />
+            <iteration index="27" Duration="129.14689999818802" />
+            <iteration index="28" Duration="99.45570000261068" />
+            <iteration index="29" Duration="176.85849999636412" />
+            <iteration index="30" Duration="110.5126999989152" />
+          </iterations>
+        </performance>
+      </test>
+      <test name="CosmosDbQueryPerfTests.PerfTests.TestReferenceParallelJoinQuery(changeOptions: True, bufferSize: 5000, maxConcurrency: 200, changeDegree: True, maxDegree: 4)" type="CosmosDbQueryPerfTests.PerfTests" method="TestReferenceParallelJoinQuery">
+        <performance>
+          <metrics>
+            <Duration displayName="Duration" unit="msec" />
+          </metrics>
+          <iterations>
+            <iteration index="0" Duration="123.09089999645948" />
+            <iteration index="1" Duration="96.28419999778271" />
+            <iteration index="2" Duration="208.84149999916553" />
+            <iteration index="3" Duration="95.4265000000596" />
+            <iteration index="4" Duration="142.19659999758005" />
+            <iteration index="5" Duration="95.14370000362396" />
+            <iteration index="6" Duration="199.08510000258684" />
+            <iteration index="7" Duration="102.20839999616146" />
+            <iteration index="8" Duration="160.8682000041008" />
+            <iteration index="9" Duration="101.26060000061989" />
+            <iteration index="10" Duration="99.96700000017881" />
+            <iteration index="11" Duration="120.11769999563694" />
+            <iteration index="12" Duration="99.71489999443293" />
+            <iteration index="13" Duration="127.94169999659061" />
+            <iteration index="14" Duration="100.25259999930859" />
+            <iteration index="15" Duration="95.49310000240803" />
+            <iteration index="16" Duration="117.77030000090599" />
+            <iteration index="17" Duration="96.0869999974966" />
+            <iteration index="18" Duration="134.17090000212193" />
+            <iteration index="19" Duration="94.23610000312328" />
+            <iteration index="20" Duration="131.49900000542402" />
+            <iteration index="21" Duration="118.19640000164509" />
+            <iteration index="22" Duration="100.27889999747276" />
+            <iteration index="23" Duration="122.63819999992847" />
+            <iteration index="24" Duration="1074.1968999952078" />
+            <iteration index="25" Duration="131.5494000017643" />
+            <iteration index="26" Duration="138.78790000081062" />
+            <iteration index="27" Duration="127.325100004673" />
+            <iteration index="28" Duration="128.2246000021696" />
+            <iteration index="29" Duration="96.42330000549555" />
+            <iteration index="30" Duration="138.7419000044465" />
+          </iterations>
+        </performance>
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
