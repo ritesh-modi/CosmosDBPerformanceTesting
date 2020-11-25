@@ -12,8 +12,8 @@ namespace CosmosDBPerformance
         private Container container = null;
         public EmbeddedDocuments()
         {
-            client = new CosmosClient("AccountEndpoint=https://structtest.documents.azure.com:443/;AccountKey=1QKOx2RKwkhN5DyAXFLTmp3C4AJ15XxZREefLMmaTghucyCnkOWhIo77z5b3HdML3CX1IFffXMqsYXe7aK3QZg==;");
-            container = client.GetContainer("ecommerce-large", "OrderManagemenr");
+            client = new CosmosClient("<<insert your connection string>>");
+            container = client.GetContainer("<<insert you database name>>", "<<insert your collection name>>");
         }
 
         public async Task<IEnumerable<dynamic>> GetData(string query, bool changeOptions, int bufferSize, int maxConcurrency)

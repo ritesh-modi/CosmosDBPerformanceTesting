@@ -17,8 +17,8 @@ namespace CosmosDBPerformance
              
               
             };
-            client = new CosmosClient("AccountEndpoint=https://structtest.documents.azure.com:443/;AccountKey=1QKOx2RKwkhN5DyAXFLTmp3C4AJ15XxZREefLMmaTghucyCnkOWhIo77z5b3HdML3CX1IFffXMqsYXe7aK3QZg==;", options);
-            container = client.GetContainer("ecommerce-rel-large", "OrderManagement");
+            client = new CosmosClient("<<insert your connection string>>");
+            container = client.GetContainer("<<insert you database name>>", "<<insert your collection name>>");
 
         }
 
